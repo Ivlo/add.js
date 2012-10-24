@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<h1>Plugín para aumentar</h1>
+
+		<form action="">
+			<div id="element"></div>
+			<div id="element2"></div>
+			<div id="element3"></div>
+
+		</form>
+
+		<p>http://jsbin.com/ajejaq/5/edit</p>
+
+		
+
+	</body>
+	<script type="text/javascript" src="jquery.js" ></script>
+	<script type="text/javascript" src="add.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('#element, #element2, #element3').add_counter({increase:6});
+		});
+	</script>
+</html>
